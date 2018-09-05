@@ -4,7 +4,7 @@
 /*
  connection rule = 
       1- black connect to gnd
-      2- yellow connect to GPIO0
+      2- yellow connect to GPIO 0
       3- red connect to Vin 
 */
 
@@ -142,7 +142,7 @@ void loop()
             client.print("\n\n"); 
 
             Serial.println("ARDUINO: HTTP message sent");
-            delay(3000);
+            delay(2000);
             if(client.available())
             {
                 Serial.println("ARDUINO: HTTP message received");
